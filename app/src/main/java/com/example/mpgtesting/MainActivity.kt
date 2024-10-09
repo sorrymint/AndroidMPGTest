@@ -115,6 +115,9 @@ fun Result(mpg: Double) {
 }
 
 internal fun calculateMPG(distance: Double, fuelConsumed: Double): Double {
+    if(distance <= 0 || fuelConsumed < 0){
+        return 0.0
+    }
     return distance / fuelConsumed
 }
 
