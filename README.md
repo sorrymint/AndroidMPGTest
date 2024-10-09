@@ -18,7 +18,7 @@ Build Instrumented tests for all on screen composables.
 
 User interface is given and look like this. 
 
-<img src="UI.png" alt="UI Example" style="width: 150px">
+<img src="./instructions/UI.png" alt="UI Example" style="width: 150px">
 
 ## Rubric
 
